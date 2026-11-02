@@ -5,12 +5,13 @@ from reporter import write_report
 def main():
     data = load_tracker_data("fitness_data.csv")
 
-    plan = 
+    plan = [("steps", 8000, True),
+            ("resting_hr", 62, False)]
 
     results_list = []
     for metric, goal, higher_is_better in plan:
         results = analyze_metric(data, metric, goal, higher_is_better)
-        results_list.append(results)
+        results_list.extend(results)
     
     write_report(results_list, "fitness_report.txt")
 
