@@ -27,15 +27,15 @@ def write_report(results_list, filename):
     with open(filename, 'w') as report:
         report.write('Fitness Report:\n')
         report.write(
-            f'Your goals were {results_list[0]["steps"]["goal"]} steps/day, '
+            f'Your goals were {results_list[0]["steps_stats"]["goal"]} steps/day, '
             f'7.5 hours of sleep/night, and 30 active minutes/day.\n'
         )
         report.write(
             f'Your weekly trends showed '
-            f'{results_list[0]["step_stats"]["weekly_averages"]}\n'
+            f'{results_list[0]["steps_stats"]["weekly_averages"]}\n'
         )
         report.write(
             f'Your monthly step average was '
-            f'{results_list[0]["step_stats"]["monthly_averages"]}\n'
+            f'{results_list[0]["steps_stats"]["monthly_average"]}\n'
         )
         report.write('Fitness report completed.\n')
