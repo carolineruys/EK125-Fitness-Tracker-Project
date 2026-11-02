@@ -6,7 +6,8 @@ def main():
     data = load_tracker_data("fitness_data.csv")
     print(type(data), data.keys, len(data[0]), len(data[2]))
 
-    plan = 
+    plan = [("steps", 8000, True),
+            ("resting_hr", 62, False)]
 
     results_list = []
     for metric, goal, higher_is_better in plan:
