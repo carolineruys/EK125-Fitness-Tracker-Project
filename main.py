@@ -11,7 +11,7 @@ def main():
     results_list = []
     for metric, goal, higher_is_better in plan:
         results = analyze_metric(data, metric, goal, higher_is_better)
-        results_list.extend(results)
+        results_list[metric] = results
     
     write_report(results_list, "fitness_report.txt")
 
