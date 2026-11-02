@@ -26,8 +26,13 @@ def write_report(results_list, filename):
     """
     with open(filename, 'w') as report:
         report.write('Fitness Report:\n')
-        report.write(f'You reached your goal in {results_list['goals_completed']}/4 target areas. Good work.\n')
+
+        report.write(
+            f'You reached your goal in "'
+            f'{results_list[0]['goals_completed']}/4 target areas. Good work.\n'
+        )
+
         report.write(f'Your goals were 8000 steps/day, to lower your resting heart rate, 7.5 hours of sleep/night, and 30 active minutes/day.\n')
-        report.write(f'Your weekly trends showed {results_list["weekly_averages"]}\n')
-        report.write(f'Your monthly averages were {results_list["monthly_averages"]}\n')
+        report.write(f'Your weekly trends showed {results_list[1]["weekly_averages"]}\n')
+        report.write(f'Your monthly averages were {results_list[2]["monthly_averages"]}\n')
         report.write('Fitness report completed.\n')
