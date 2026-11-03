@@ -1,4 +1,4 @@
-"""loader.py, creating loader file, Caroline Uys. STUB VERSION."""
+"""loader.py, creating loader file, Caroline Uys. WORKING VERSION."""
 def load_tracker_data(filename):
     """Reads the data from the fitness tracker data file and then returns the data as a dictionary of lists."""
     data_rows = filename.readlines()
