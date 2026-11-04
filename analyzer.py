@@ -1,37 +1,3 @@
-"""def analyze_metric(data, metric, goal, higher_is_better=True)
-    Calculates statistics for one metric and returns them
-        in a dictionary
-
-        Parameters:
-            data (dictionary of lists from load_tracker_data 
-            function): 
-            metric (steps, resting_hr, sleep_hours, and 
-            active_minutes): 
-            goal (dictionary of lists written in the main): 
-            higher_is_better (True): 
-
-        Returns:
-            returns a dictionary the weekly trends, and average 
-            for the whole month for each column in the data file
-
-            Example: {
-            "weekly_steps_stats": ______,
-            "weekly_resting_hr_stats": ______,
-            "avg_steps_per_month": ______
-            }
-
-        Side effects: 
-        none (does not print or change anything)
-        Assumptions and messy cases: 
-        The parameters are given as a dictionary
-
-
-    WRONG dic_stats = {"weekly_steps_stats":[], "weekly_resting_hr_stats":[], "weekly_sleep_hours_stats":[], "weekly_active_minutes_stats":[], "weekly_active_hours_stats":[]}
-    WRONG dic_avg = {"avg_monthly_steps":sum([data("steps")])/len(data("day")), "avg_monthly_resting_hr":sum([data("resting_hr")])/len(data("day")), "avg_monthly_sleep_hours": sum([data("sleep_hours")])/len(data("day")), "avg_monthly_active_minutes":sum([data("active_minutes")])/len(data("day"))}
-    results_dic = {"steps_stats":[], "rest_stats":[], "sleep_stats":[], "active_stats":[]}
-    week_avg = []
-"""
-
 def analyze_metric(data, metric, goal, higher_is_better=True):
     """Calculates statistics for one metric and returns them in a dictionary.
 
