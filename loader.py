@@ -46,13 +46,3 @@ def load_tracker_data(filename):
             result[key].append(val)
     return result
 
-def test_loader(tester):
-    """Tests the loader function."""
-    print(type(tester))
-    print(tester.keys())
-    print(tester)
-    for value in tester.values():
-        print(len(value))
-
-result = load_tracker_data('fitness_data.csv')
-test_loader(result)

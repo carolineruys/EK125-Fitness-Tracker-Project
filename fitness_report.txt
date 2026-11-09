@@ -1,0 +1,29 @@
+Fitness Report:
+--------------------------
+Your goals were 8000.0 steps/day, 60.0 bpm resting heart rate, 7.5 hours of sleep/night, and 30.0 active minutes/day.
+
+Weekly Trends:
+Weekly step averages: [8334.1, 7608.7, 8198.3, 11317.2]
+Weekly resting heart rate averages: [63.9, 62.7, 63.0, 62.3]
+Weekly sleep averages: [7.6, 6.9, 6.9, 7.5]
+Weekly active minute averages: [43.9, 43.5, 38.2, 39.5]
+
+Monthly Averages:
+Monthly step average: 8843.4
+Monthly resting heart rate average: 63.0
+Monthly sleep average: 7.2
+Monthly active minute average: 41.4
+
+Best Days:
+Best step day(s): [27] (14773.0 steps)
+Best resting heart rate day(s): [14] (58.0 bpm)
+Best sleep day(s): [7] (8.9 hours)
+Best active minute day(s): [7] (69.0 minutes)
+
+Goal Progress:
+Steps: Goal met!
+Resting heart rate: Goal not met.
+Sleep: Goal not met.
+Active minutes: Goal met!
+
+Fitness report completed.
